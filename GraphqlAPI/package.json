@@ -1,0 +1,24 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.7.3",
+    "apollo-datasource-rest": "^0.10.0",
+    "apollo-server": "^2.21.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  },
+  "nodemonConfig": {
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
+}
